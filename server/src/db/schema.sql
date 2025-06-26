@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS appointments;
+
+USE appointments;
+
+CREATE TABLE IF NOT EXISTS appointments (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  doctor VARCHAR(255) NOT NULL,
+  patient_email VARCHAR(255) NOT NULL,
+  appointment_time DATETIME NOT NULL,
+  `condition` VARCHAR(255),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
