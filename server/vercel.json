@@ -1,4 +1,4 @@
-[{
+{
   "version": 2,
   "builds": [
     {
@@ -11,4 +11,4 @@
       "src": "/api/(.*)",
       "dest": "/server/src/index.js"
     }
-  ]
+  
